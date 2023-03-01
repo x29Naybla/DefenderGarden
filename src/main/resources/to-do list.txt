@@ -1,10 +1,9 @@
 +Plants can only be planted/placed on grass and moss blocks;
 +If the block that the Plant is placed on breaks, the Plant breaks too;
-+Greenhouse structure;
-+Greenhouse generation;
 +Sunflower seeds;
 +Peashooter seeds;
 +Planting mechanic for the Plants;
++Idle animation for the Plants;
 
 +Peashooters detect and shoot at mobs;
 +The Peashooter's peas pass through other Peashooters;

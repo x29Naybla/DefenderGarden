@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "defendergarden:greenhouse",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 91863588,
+    "spacing": 32,
+    "separation": 16,
+    "type": "minecraft:random_spread"
+  }
+}

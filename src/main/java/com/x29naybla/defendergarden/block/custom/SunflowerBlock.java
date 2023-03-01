@@ -21,7 +21,7 @@ public class SunflowerBlock extends HorizontalDirectionalBlock {
         super(properties);
     }
 
-    private static final VoxelShape SHAPE = Block.box(4,0,4,12,16,12);
+    private static final VoxelShape SHAPE = Block.box(4,0,4,12,14,12);
 
     @Override
     public VoxelShape getShape(BlockState state, BlockGetter getter, BlockPos pos, CollisionContext context) {
