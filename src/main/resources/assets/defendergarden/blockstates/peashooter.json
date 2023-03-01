@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "defendergarden:block/peashooter"
+    },
+    "facing=south": {
+      "model": "defendergarden:block/peashooter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "defendergarden:block/peashooter",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "defendergarden:block/peashooter",
+      "y": 90
+    }
+  }
+}

@@ -23,6 +23,8 @@ public class ModBlocks {
 
     public static RegistryObject<Block> SUNFLOWER = registerBlock("sunflower",
             () -> new SunflowerBlock(BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.GRASS).strength(0f).noOcclusion()), CreativeModeTab.TAB_MISC);
+    public static RegistryObject<Block> PEASHOOTER = registerBlock("peashooter",
+            () -> new SunflowerBlock(BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.GRASS).strength(0f).noOcclusion()), CreativeModeTab.TAB_MISC);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
