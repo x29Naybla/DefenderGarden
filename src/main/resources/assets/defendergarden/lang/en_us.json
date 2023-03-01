@@ -1,4 +1,8 @@
 {
+  "item.defendergarden.peashooter_seeds": "Peashooter Seeds",
+  "item.defendergarden.snowpea_seeds": "Snowpea Seeds",
+
   "block.defendergarden.sunflower": "Sunflower",
-  "block.defendergarden.peashooter": "Peashooter"
+  "block.defendergarden.peashooter": "Peashooter",
+  "block.defendergarden.snowpea": "Peashooter"
 }

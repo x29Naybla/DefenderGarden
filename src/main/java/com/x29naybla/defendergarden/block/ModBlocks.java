@@ -1,7 +1,7 @@
 package com.x29naybla.defendergarden.block;
 
 import com.x29naybla.defendergarden.DefenderGarden;
-import com.x29naybla.defendergarden.block.custom.SunflowerBlock;
+import com.x29naybla.defendergarden.block.custom.*;
 import com.x29naybla.defendergarden.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -24,7 +24,9 @@ public class ModBlocks {
     public static RegistryObject<Block> SUNFLOWER = registerBlock("sunflower",
             () -> new SunflowerBlock(BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.GRASS).strength(0f).noOcclusion()), CreativeModeTab.TAB_MISC);
     public static RegistryObject<Block> PEASHOOTER = registerBlock("peashooter",
-            () -> new SunflowerBlock(BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.GRASS).strength(0f).noOcclusion()), CreativeModeTab.TAB_MISC);
+            () -> new PeashooterBlock(BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.GRASS).strength(0f).noOcclusion()), CreativeModeTab.TAB_MISC);
+    public static RegistryObject<Block> SNOWPEA = registerBlock("snowpea",
+            () -> new PeashooterBlock(BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.GRASS).strength(0f).noOcclusion()), CreativeModeTab.TAB_MISC);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
@@ -39,4 +41,5 @@ public class ModBlocks {
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);
     }
+
 }
