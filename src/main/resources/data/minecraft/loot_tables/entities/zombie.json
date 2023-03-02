@@ -1,0 +1,54 @@
+{
+  "replace": "false",
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "defendergarden:sunflower",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.061,
+              "looting_multiplier": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "defendergarden:peashooter_seeds",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.122,
+              "looting_multiplier": 2
+            }
+          ]
+        },
+        ,{
+          "type": "minecraft:item",
+          "name": "defendergarden:snowpea_seeds",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.122,
+              "looting_multiplier": 2
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "defendergarden:repeater_seeds",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.061,
+              "looting_multiplier": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

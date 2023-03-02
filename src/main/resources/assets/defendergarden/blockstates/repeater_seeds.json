@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "defendergarden:block/repeater_seeds"
+    },
+    "facing=south": {
+      "model": "defendergarden:block/repeater_seeds",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "defendergarden:block/repeater_seeds",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "defendergarden:block/repeater_seeds",
+      "y": 90
+    }
+  }
+}

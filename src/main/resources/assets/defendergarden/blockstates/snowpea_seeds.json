@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "defendergarden:block/snowpea_seeds"
+    },
+    "facing=south": {
+      "model": "defendergarden:block/snowpea_seeds",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "defendergarden:block/snowpea_seeds",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "defendergarden:block/snowpea_seeds",
+      "y": 90
+    }
+  }
+}

@@ -16,7 +16,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "defendergarden:peashooter",
+          "name": "defendergarden:peashooter_seeds",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -26,11 +26,11 @@
         },
         {
           "type": "minecraft:item",
-          "name": "defendergarden:snowpea",
+          "name": "defendergarden:snowpea_seeds",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.2
+              "chance": 0.1
             }
           ]
         }

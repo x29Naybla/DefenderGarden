@@ -1,8 +1,10 @@
 {
-  "item.defendergarden.peashooter_seeds": "Sementes de disparervilha",
-  "item.defendergarden.snowpea_seeds": "sementes de gelervilha",
+  "block.defendergarden.peashooter_seeds": "Sementes de disparervilha",
+  "block.defendergarden.snowpea_seeds": "Sementes de gelervilha",
+  "block.defendergarden.repeater_seeds": "Sementes de duplervilha",
 
   "block.defendergarden.sunflower": "Girassol",
   "block.defendergarden.peashooter": "Disparervilha",
-  "block.defendergarden.snowpea": "Gelervilha"
+  "block.defendergarden.snowpea": "Gelervilha",
+  "block.defendergarden.repeater": "Duplervilha"
 }
