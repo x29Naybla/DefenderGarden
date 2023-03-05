@@ -6,11 +6,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "defendergarden:sunflower",
+          "name": "defendergarden:sunflower_seeds",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.3
+              "chance": 0.2
             }
           ]
         },
@@ -20,7 +20,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.2
+              "chance": 0.25
             }
           ]
         },
@@ -36,5 +36,8 @@
         }
       ]
     }
+  ],
+  "values": [
+
   ]
 }

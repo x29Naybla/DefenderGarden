@@ -12,6 +12,14 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, DefenderGarden.MOD_ID);
 
+    public static final RegistryObject<Item> SUNFLOWER_SEEDS = ITEMS.register("sunflower_seeds",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
+    public static final RegistryObject<Item> PEASHOOTER_SEEDS = ITEMS.register("peashooter_seeds",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
+    public static final RegistryObject<Item> SNOWPEA_SEEDS = ITEMS.register("snowpea_seeds",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
+    public static final RegistryObject<Item> REPEATER_SEEDS = ITEMS.register("repeater_seeds",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

@@ -27,7 +27,7 @@
             }
           ]
         },
-        ,{
+        {
           "type": "minecraft:item",
           "name": "defendergarden:snowpea_seeds",
           "conditions": [
